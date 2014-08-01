@@ -1,6 +1,10 @@
 {
   "name": "patternlab-php-grunt",
   "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmclaughlin/patternlab-php-grunt.git"
+  },
   "devDependencies": {
     "assemble": "~0.4.0",
     "autoprefixer": "~0.5.20130629",
