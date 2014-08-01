@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
     shell: {
       patternlab: {
-        command: "php core/builder.php -gp"
+        command: "php core/builder.php -g"
       }
     },
 
