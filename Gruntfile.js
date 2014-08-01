@@ -152,7 +152,7 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['scss', 'js', 'img', 'shell:patternlab', 'dev']);
+  grunt.registerTask('default', ['shell:patternlab', 'scss', 'js', 'img', 'dev']);
 
   grunt.registerTask('update', ['devUpdate']);
   // grunt.registerTask('default', ['sass', 'autoprefixer', 'assemble', 'copy']);
