@@ -135,6 +135,11 @@ module.exports = function(grunt) {
         files: [
           { expand: true, cwd: 'source/js', src: ['./**/*.*'], dest: 'public/js' }
         ]
+      },
+      images: {
+        files: [
+          { expand: true, cwd: 'source/images', src: ['./**/*.*'], dest: 'public/images' }
+        ]
       }
     //},
 
@@ -147,13 +152,14 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['scss', 'js', 'shell:patternlab', 'dev']);
+  grunt.registerTask('default', ['scss', 'js', 'img', 'shell:patternlab', 'dev']);
 
   grunt.registerTask('update', ['devUpdate']);
   // grunt.registerTask('default', ['sass', 'autoprefixer', 'assemble', 'copy']);
   grunt.registerTask('scss', ['sass', 'autoprefixer', 'copy:css']);
   // grunt.registerTask('html', ['assemble']);
   grunt.registerTask('js', ['copy:js']);
+  grunt.registerTask('img', ['copy:images']);
   grunt.registerTask('dev', ['connect', 'watch']);
   // grunt.registerTask('demo', ['copy:demo', 'assemble:demo']);
   // grunt.registerTask('deploy', ['gh-pages']);
