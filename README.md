@@ -1,7 +1,7 @@
-pattern-php-grunt
+pp-patterns
 ==============
 
-Integrating [Grunt](http://gruntjs.com/) with [Pattern Lab](http://patternlab.io/).
+Forked from [patternlab-php-grunt](https://github.com/jpmclaughlin/patternlab-php-grunt) which integrates [Grunt](http://gruntjs.com/) with [Pattern Lab](http://patternlab.io/).  This version completely overhauls the patterns.
 
 ## Getting Started
 

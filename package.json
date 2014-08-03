@@ -1,9 +1,9 @@
 {
-  "name": "patternlab-php-grunt",
-  "version": "1.0.1",
+  "name": "pp-patterns",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jmclaughlin/patternlab-php-grunt.git"
+    "url": "git://github.com/jmclaughlin/pp-patterns.git"
   },
   "devDependencies": {
     "assemble": "~0.4.0",
